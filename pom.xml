@@ -58,14 +58,14 @@
     <profile>
       <id>kafka-producer</id>
       <properties>
-        <target.main.class>org.apache.camel.example.kafka.MessagePublisherClient</target.main.class>
+        <target.main.class>com.example.demo.MessagePublisherClient</target.main.class>
       </properties>
     </profile>
 
     <profile>
       <id>kafka-consumer</id>
       <properties>
-        <target.main.class>org.apache.camel.example.kafka.MessageConsumerClient</target.main.class>
+        <target.main.class>com.example.demo.kafka.MessageConsumerClient</target.main.class>
       </properties>
     </profile>
 

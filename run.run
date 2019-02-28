@@ -1,0 +1,7 @@
+zookeeper-server-start.bat ..\..\config\zookeeper.properties
+kafka-server-start.bat ..\..\config\server.properties
+
+mvn compile exec:java -Pkafka-consumer
+
+mvn compile exec:java -Pkafka-producer
+
